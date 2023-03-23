@@ -1,7 +1,6 @@
 # Leetcode
-My LeetCode Solutions.
-
-~~Algorithms~~ :smiling_imp:
+My LeetCode Solutions. I am trying to solve 1 problem everyday. I will be using this repo to keep a track of my progress ☺️
+~~Data Structures~~ :smiling_imp:
 
 
 
@@ -18,3 +17,4 @@ My LeetCode Solutions.
 | 1480. [running sum ](https://leetcode.com/problems/running-sum-of-1d-array/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Runnig_Sum.cpp)|
 
 :thumbsup:
+
