@@ -16,6 +16,7 @@ My LeetCode Solutions. I am trying to solve 1 problem everyday. I will be using 
 | 1748. [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/1748.Sum_of_Unique_Elements.cpp)|
 | 1431. [Kids with the greatest no. of candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/kids_with_Greatest_no._of_candies.cpp)|
 | 1480. [running sum ](https://leetcode.com/problems/running-sum-of-1d-array/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Runnig_Sum.cpp)|
+| 1512. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)| [[C++](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1512.number_of_good_pairs.cpp)|
 
 :thumbsup:
 
