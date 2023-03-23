@@ -1,7 +1,7 @@
 # Leetcode
 My LeetCode Solutions. I am trying to solve 1 problem everyday. I will be using this repo to keep a track of my progress ☺️
 
-~~Data Structures~~ :smiling_imp:
+~~Data Structures~~ 
 
 
 
