@@ -15,7 +15,7 @@ My LeetCode Solutions. I am trying to solve 1 problem everyday. I will be using 
 | 442. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/442.Find_all_Duplicates_in_Array.cpp)|
 |821. [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/821.%20shortest_distance_to_character.cpp)|
 |905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/905.Sort_Array_by_Parity.cpp)|
-977. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/977.Squares_of_sorted_array.cpp)|
+|977. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/977.Squares_of_sorted_array.cpp)|
 | 1207. [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)| [[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/1207.Unique_no._of_Occurrences.cpp)|
 | 1431. [Kids with the greatest no. of candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/kids_with_Greatest_no._of_candies.cpp)|
 | 1480. [running sum ](https://leetcode.com/problems/running-sum-of-1d-array/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Runnig_Sum.cpp)|
