@@ -18,6 +18,8 @@ My LeetCode Solutions. I am trying to solve 1 problem everyday. I will be using 
 | 215. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| [[C++(Heap)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/215.Kth_largest_Element_in%20_array.cpp)
 | 217. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/217.Contains_Duplicate.cpp)|
 | 242. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/242.Valid_Anagram.cpp)
+| 338. [Counting Bits](https://leetcode.com/problems/counting-bits/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/338.Counting_Bits.cpp)|
+| 347. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/347.Top_K_Frequent_Elements.cpp)|
 | 442. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/442.Find_all_Duplicates_in_Array.cpp)|
 | 509. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/509.Fibbonacci_number.cpp)|
 |821. [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)| [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/821.%20shortest_distance_to_character.cpp)|
