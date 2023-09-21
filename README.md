@@ -17,6 +17,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/49.Group_Anagrams.cpp) |
 | 50. [Pow(x, n)](https://leetcode.com/problems/powx-n/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/50.Nth_power_of_Number.cpp) |
 |51. [N-Queens](https://leetcode.com/problems/n-queens/)| :red_circle: Hard | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/51.N_Queens.cpp)|
+| 53. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/53.Maximum_Subarray.cpp) |
 | 56. [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/56.Merge_intervals.cpp) |
 |75.[Sort colors](https://leetcode.com/problems/Sort-Colors/)| :yellow_circle: Medium | [[C++(Brute force)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/75.Sort_Colors(loop).cpp)  [[C++(2nd approach)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/75.sort_colrs(freq).cpp)|
 | 77. [Combinations](https://leetcode.com/problems/combinations/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/77.Combinations.cpp) |
