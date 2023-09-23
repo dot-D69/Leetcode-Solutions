@@ -10,18 +10,18 @@ public:
             else cnt2++;
         }
 
-        int x=0;
+        int j=0;
         while(cnt0--){
-            nums[x]=0;
-            x++;
+            nums[j]=0;
+            j++;
         }
         while(cnt1--){
-            nums[x]=1;
-            x++;
+            nums[j]=1;
+            j++;
         }
         while(cnt2--){
-            nums[x]=2;
-            x++;
+            nums[j]=2;
+            j++;
         }
     }
 
