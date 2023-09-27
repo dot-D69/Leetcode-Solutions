@@ -14,6 +14,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 39. [Combination Sum](https://leetcode.com/problems/combination-sum/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/39.Combination_sum.cpp) [[C++(2nd approach)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/39.Combination_sum(2nd%20approach).cpp)|
 | 40. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/40.Combination_SumII.cpp) |
 |46. [Permutations](https://leetcode.com/problems/permutations/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/46.Permutations.cpp)|
+| 48. [Rotate Image](https://leetcode.com/problems/rotate-image/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/48.Rotate_image.cpp) |
 | 49. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/49.Group_Anagrams.cpp) |
 | 50. [Pow(x, n)](https://leetcode.com/problems/powx-n/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/50.Nth_power_of_Number.cpp) |
 |51. [N-Queens](https://leetcode.com/problems/n-queens/)| :red_circle: Hard | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/51.N_Queens.cpp)|
