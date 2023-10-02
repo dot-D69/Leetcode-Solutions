@@ -23,6 +23,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 54. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/54.Spiral_Matrix.cpp) |
 | 56. [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/56.Merge_intervals.cpp) |
 | 73. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/73.Set_matrix_Zeroes.cpp) |
+| 74. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/74.Search_a_2D_matrix.cpp) |
 
 |75.[Sort colors](https://leetcode.com/problems/Sort-Colors/)| :yellow_circle: Medium | [[C++(Brute force)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/75.Sort_Colors(loop).cpp)  [[C++(2nd approach)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/75.sort_colrs(freq).cpp) [[C++(DNF)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/75.Sort_Colors(DNF).cpp) |
 | 77. [Combinations](https://leetcode.com/problems/combinations/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/77.Combinations.cpp) |
