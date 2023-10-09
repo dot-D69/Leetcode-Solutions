@@ -7,6 +7,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |---------|------------|----------|
 | 1. [Two Sum](https://leetcode.com/problems/two-sum/) | :green_circle: Easy | [[Python3]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/1.Two%20_Sum.py)   [[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/1.Two_Sum.cpp)|
 | 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_circle: Easy | [[Python3]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/2.Palindrome_No.py) |
+|15. [3Sum](https://leetcode.com/problems/3sum/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/15.3Sum.cpp)|
 | 17. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/17.Letter_combinations.cpp) |
 | 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | :green_circle: Easy | [[C++ brute force]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/26.Remove_duplicate_from_sorted_array.cpp)  [[C++(optimal)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/26.Remove_duplicates_from_sorted_array(optimal).cpp)|
 | 27. [Remove Element](https://leetcode.com/problems/remove-element/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/27.Remove_Element.cpp) |
