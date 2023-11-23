@@ -11,7 +11,6 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 17. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/17.Letter_combinations.cpp) |
 | 18. [4Sum](https://leetcode.com/problems/4sum/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/18.4_Sum.cpp) |
 | 20. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/20.Valid_Parentheses.cpp) |
-
 | 26. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | :green_circle: Easy | [[C++ brute force]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/26.Remove_duplicate_from_sorted_array.cpp)  [[C++(optimal)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/26.Remove_duplicates_from_sorted_array(optimal).cpp)|
 | 27. [Remove Element](https://leetcode.com/problems/remove-element/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/27.Remove_Element.cpp) |
 | 31. [Next Permutation](https://leetcode.com/problems/next-permutation/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/31.Next_Permutation.cpp) |
@@ -51,7 +50,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 215. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)| :yellow_circle: Medium | [[C++(Heap)]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/215.Kth_largest_Element_in%20array.cpp)|
 | 216. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/216.Combination_sumIII.cpp)|
 | 217. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/217.Contains_Duplicate.cpp)|
-
+| 225. [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/225.Implement_Stack_Using_Queues.cpp)|
 |229. [Majority Element II](https://leetcode.com/problems/majority-element-ii/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/229.Majority_ElementII.cpp)|
 | 238. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/238.Product_of_array_except_self.cpp) |
 | 242. [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/242.Valid_Anagram.cpp) |
