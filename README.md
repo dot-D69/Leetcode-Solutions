@@ -61,6 +61,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |343. [Integer Break](https://leetcode.com/problems/integer-break/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/343.Integer_Break.cpp)|
 | 347. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/347.Top_K_Frequent_Elements.cpp)|
 | 349. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/349.Intersection_of_two_arrays.cpp)|
+| 402. [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/402.Remove_k_digits.cpp) |
 | 410. [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/410.Split_Array_Largest_Sum.cpp)|
 | 442. [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/442.Find_all_Duplicates_in_Array.cpp)|
 | 476.[Number Complement](https://leetcode.com/problems/number-complement/description/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/476.Number_Complement.cpp) |
@@ -79,6 +80,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |896. [Monotonic Array](https://leetcode.com/problems/monotonic-array/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/896.Monotonic_Array.cpp)|
 |905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/905.Sort_Array_by_Parity.cpp)|
 |912. [Sort an Array](https://leetcode.com/problems/sort-an-array/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/912.Sort_an_array.cpp)|
+
 |977. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/977.Squares_of_sorted_array.cpp)|
 | 1006. [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1006.Clumsy_Factorial.cpp) |
 | 1011. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1011.Capaciry_to_ship_packages_within_D_Days.cpp)|
