@@ -80,7 +80,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |896. [Monotonic Array](https://leetcode.com/problems/monotonic-array/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/896.Monotonic_Array.cpp)|
 |905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/905.Sort_Array_by_Parity.cpp)|
 |912. [Sort an Array](https://leetcode.com/problems/sort-an-array/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/912.Sort_an_array.cpp)|
-
+| 946. [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/946.Validate_Stack_Sequence.cpp)|
 |977. [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/977.Squares_of_sorted_array.cpp)|
 | 1006. [Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1006.Clumsy_Factorial.cpp) |
 | 1011. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1011.Capaciry_to_ship_packages_within_D_Days.cpp)|
