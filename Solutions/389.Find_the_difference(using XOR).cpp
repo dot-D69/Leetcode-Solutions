@@ -14,4 +14,4 @@ public:
     }
 };
 
-// it will xor the ascii value of each character from string s and then string t at last the ascii value of the  extra char will be stored as char into extrachar
+// it will xor the ASCII value of each character from string s and then string t at last the ASCII value of the  extra char will be stored as char into extrachar
