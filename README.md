@@ -6,6 +6,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
 | 1. [Two Sum](https://leetcode.com/problems/two-sum/) | :green_circle: Easy | [[Python3]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/1.Two%20_Sum.py)   [[C++ Brute Force]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1.Two_Sum(Brute%20force).cpp) [[C++ Map]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1.Two_Sum(Using%20Map).cpp) [[C++ Two Pointers]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/1.Two_Sum(Two%20pointers).cpp)|
+| 2. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2.Add_Two_Numbers.cpp) |
 | 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | :green_circle: Easy | [[Python3]](https://github.com/dot-D69/Leetcode/blob/main/Solutions/2.Palindrome_No.py) |
 |15. [3Sum](https://leetcode.com/problems/3sum/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/15.3Sum.cpp)|
 | 17. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/17.Letter_combinations.cpp) |
