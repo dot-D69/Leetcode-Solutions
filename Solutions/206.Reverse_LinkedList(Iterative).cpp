@@ -1,4 +1,4 @@
-// Brute Force
+// Iterative Approach
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -14,6 +14,9 @@ public:
         return prev;
     }
 };
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 
 //The Working of  the code is like this:
 /*
