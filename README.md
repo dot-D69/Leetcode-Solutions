@@ -116,4 +116,10 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 2207. [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)| :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2207.Maximize_number_of_Subsequences_in_a_string.cpp)|
 |2357. [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2357.Make_array_zero.cpp)|
 
+<--------------------------------------------------------------------------------------------------------------------------------------------------------->
+![GeeksforGeeks Logo](https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg)
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Nearest Smaller Town](https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Nearest_Smaller_Tower.cpp) |
+
 :thumbsup:
