@@ -115,6 +115,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |2206. [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)| :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2206.Divide_Array_into_Equal_pairs.cpp)|
 | 2207. [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)| :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2207.Maximize_number_of_Subsequences_in_a_string.cpp)|
 |2357. [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2357.Make_array_zero.cpp)|
+| 2678. [Number of Senior Citizen](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp)|
 
 <--------------------------------------------------------------------------------------------------------------------------------------------------------->
 ![GeeksforGeeks Logo](https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg)
