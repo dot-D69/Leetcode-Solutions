@@ -125,7 +125,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 2678. [Number of Senior Citizen](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp)|
 | 3016. [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3016.Minnimum_Number_of_Pushes_to_Type_Word_II.cpp) |
 
-<--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<------------------------------------------------------------------------------------------------------------------------------------------>
 ![GeeksforGeeks Logo](https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg)
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
