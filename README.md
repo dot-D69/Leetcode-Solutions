@@ -133,6 +133,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |2357. [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | :yellow_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2357.Make_array_zero.cpp)|
 | 2678. [Number of Senior Citizen](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/2678.Number_of_Senior_Citizen.cpp)|
 | 3016. [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3016.Minnimum_Number_of_Pushes_to_Type_Word_II.cpp) |
+| 3217. [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3217.Delete_Nodes_From_Linked_List_Present_in_Array.cpp) |
 
 <------------------------------------------------------------------------------------------------------------------------------------------------>
 
