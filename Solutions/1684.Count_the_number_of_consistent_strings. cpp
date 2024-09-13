@@ -1,0 +1,87 @@
+class Solution {
+public:
+    int countConsistentStrings(string allowed, vector<string>& words) {
+        int mask = 0;
+        for(char &c : allowed){
+            mask |= (1<<(c-'a'));
+        }
+
+        int count =0;
+
+        for(string &str :words){
+            bool present = true;
+
+            for(char &ch :str){
+                if((mask >> (ch-'a') & 1) == 0 ){
+                    present = false;
+                    break;
+                }
+            }
+
+            if(present == true){
+                count++;
+            }
+        }
+        return count;
+    }
+};
+
+
+/*
+Create a bitmask for allowed = "ab"
+Initially, mask = 0.
+For c = 'a', we update mask to mask |= 1 << (0), which results in mask = 00000000000000000000000001.
+For c = 'b', we update mask to mask |= 1 << (1), which results in mask = 00000000000000000000000011.
+
+
+Word 1: "ad"
+Initialize present = true.
+Loop through each character in "ad":
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'd', check if mask >> (3) & 1 == 0 (which is false). So, 'd' is not allowed.
+Since 'd' is not allowed, set present = false and exit the inner loop.
+count remains 0 because this word is not consistent.
+
+
+Word 2: "bd"
+Initialize present = true.
+Loop through each character in "bd":
+For ch = 'b', check if mask >> (1) & 1 == 1 (which is true). So, 'b' is allowed.
+For ch = 'd', check if mask >> (3) & 1 == 0 (which is false). So, 'd' is not allowed.
+Since 'd' is not allowed, set present = false and exit the inner loop.
+count remains 0 because this word is not consistent.
+
+
+
+Word 3: "aaab"
+Initialize present = true.
+Loop through each character in "aaab":
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'b', check if mask >> (1) & 1 == 1 (which is true). So, 'b' is allowed.
+All characters are allowed, so present remains true.
+Increment count to 1 because this word is consistent.
+
+
+Word 4: "baa"
+Initialize present = true.
+Loop through each character in "baa":
+For ch = 'b', check if mask >> (1) & 1 == 1 (which is true). So, 'b' is allowed.
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+All characters are allowed, so present remains true.
+Increment count to 2 because this word is consistent.
+Word 5: "badab"
+Initialize present = true.
+Loop through each character in "badab":
+For ch = 'b', check if mask >> (1) & 1 == 1 (which is true). So, 'b' is allowed.
+For ch = 'a', check if mask >> (0) & 1 == 1 (which is true). So, 'a' is allowed.
+For ch = 'd', check if mask >> (3) & 1 == 0 (which is false). So, 'd' is not allowed.
+Since 'd' is not allowed, set present = false and exit the inner loop.
+count remains 2 because this word is not consistent.
+Final Result:
+The total count of consistent strings is 2.
+
+
+*/
