@@ -145,7 +145,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 3016. [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3016.Minnimum_Number_of_Pushes_to_Type_Word_II.cpp) |
 | 3217. [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3217.Delete_Nodes_From_Linked_List_Present_in_Array.cpp) |
 
-<------------------------------------------------------------------------------------------------------------------------------------------------>
+<------------------------------------------------------------------------------------------------------------------------------------------>
 
 ![GeeksforGeeks Logo](https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg)
 | Problem | Difficulty | Solution |
