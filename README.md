@@ -100,6 +100,7 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 885. [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/description/) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/885.Spiral_Matrix_III.cpp) |
 |896. [Monotonic Array](https://leetcode.com/problems/monotonic-array/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/896.Monotonic_Array.cpp)|
 | 901. [Online Stock Span](https://leetcode.com/problems/online-stock-span/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/901.Online_Stock_Span.cpp) |
+|904. [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)| :yellowr_circle: Medium |[[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/904.Fruit_Into_Baskets.cpp) |
 |905. [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)| :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/905.Sort_Array_by_Parity.cpp)|
 | 907. [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/907.Sum_of_Subarray_Minimums.cpp) |
 |912. [Sort an Array](https://leetcode.com/problems/sort-an-array/)| :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/912.Sort_an_array.cpp)|
