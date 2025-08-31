@@ -1,82 +1,160 @@
-class Solution
-{
+class Solution {
 public:
-    bool follows(vector<vector<char>> &board, int row, int col, char c)
-    {
-        for (int i = 0; i < 9; i++)
-        {
-            if (board[row][i] == c)
-                return false;
-
-            if (board[i][col] == c)
-                return false;
-
-            if (board[3 * (row / 3) + i / 3][3 * (col / 3) + i % 3] == c)
-                return false;
+    
+    bool isValid(vector<vector<char>>& board,int row,int col,char d){
+        //Row Validity
+        for(int i=0;i<9;i++){
+            if(board[row][i] ==d) return false;
         }
+
+        //col validity 
+        for(int i=0;i<9;i++){
+            if(board[i][col]==d) return false;
+        }
+
+        //3*3 Box validity
+        int start_i =  row/3 *3;
+        int start_j = col/3 *3;
+
+        for(int k=0;k<3;k++){
+            for(int l=0;l<3;l++){
+                if(board[start_i+k][start_j+l] == d) return false;
+            }
+        }
+
         return true;
     }
 
-    void solveSudoku(vector<vector<char>> &board)
-    {
-        Solve(board);
-    }
-
-    bool Solve(vector<vector<char>> &board)
-    {
-        for (int i = 0; i < board.size(); i++)
-        {
-            for (int j = 0; j < board.size(); j++)
-            {
-                if (board[i][j] == '.')
-                {
-
-                    for (char c = '1'; c <= '9'; c++)
-                    {
-                        if (follows(board, i, j, c))
-                        {
-                            board[i][j] = c;
-                            if (Solve(board) == true)
-                                return true;
-                            else
-                                board[i][j] = '.';
+    bool solve(vector<vector<char>>& board){
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+                if(board[i][j]=='.'){
+                    for(char d ='1';d<='9';d++){
+                        if(isValid(board,i,j,d)){
+                            board[i][j] = d; // Do
+                            if(solve(board) ==true) return true ; // Explore
+                            board[i][j] = '.'; // Undo
                         }
                     }
                     return false;
                 }
+
             }
         }
-        return true;
+        return true; // THIS MEANS WE DID NOT ENCOUNTER ANY EMPTY CELLS "." , Since the board was already filled, so we just return 
+        //If the board was not already filled we would have returned a true or a false and would have never cam to this in the code
+    }
+
+
+    void solveSudoku(vector<vector<char>>& board) {
+        solve(board);
     }
 };
 
 /*
-EXPLANATION:
 
-The idea is to use backtracking. We first assign values to the cells which are empty. We check if the value is valid or not. If it is valid, we continue with the next cell. If it is not valid, we try a different value. If all the values are exhausted, we return false.
+Let's just visualise how we solve sudoku actually:
 
+First we find an empty cell and fill it with a number say 3 (given that the number 3 is not repeated in the row or col or the box we are filling the empty cell in)
 
+Then we move to the next empty cell and do the whole thing again
 
-we star from col = 0, row = 0 and check if the cell is empty or not. If it is empty, we try to fill it with a value from 1 to 9. If the value is valid, we continue with the next cell. If the value is not valid, we try a different value. If all the values are exhausted, we return false.
+Now it is possible that in future when we have filled some of the cells , we go to fill the an empty cell and then we realise that the cell we filled with number 3 in the starting is wrong
 
-To check for validity use the function follows (vector<vector<char>>& board,int row,int col,int c)  we run a loop from 0 to 8 
-    i.) first we check if the any value from 1 to 9 is present in the row or not. If it is present, we return false. we get the c as parameter which is the value we are trying to fill in the cell.
-    ii.) second we check if the any value from 1 to 9 is present in the column or not. If it is present, we return false.
-    iii.) third we check if the any value from 1 to 9 is present in the 3*3 matrix or not. If it is present, we return false. to find that we use formula board[3*(row/3)+i/3][3*(col/3)+i%3] where i runs from 0 to 8.
+So now we have to redo the whole suduko with another number , and empty all the celss we have filled tiil now ( exhaussting i know but that is how you solve a sudoku)
 
+Basically we are : DO --> Explore -->UNDO
+This is Backtracking
 
-After checking for validity we return to SOlve function 
-    if the Follows function returned  true, so we fill the cell with the value and call the Solve function again.
-    Which then recursively calls and check for each empty if there are any valid values or not. If there are no valid values, it returns false and we backtrack and try a different value.
+In this program also we are doing the same thing
 
 
+First we have a solve function:
+  i.) It iterates over the whole 9*9 grid
 
-    we start from col = 0, row = 0 and check if the cell is empty or not. If it is empty, we try to fill it with a value from 1 to 9. If the value is valid, we continue with the next cell. If the value is not valid, we try a different value. If all the values are exhausted, we return false.
+  ii.) if it finds an empty cell (board[i][j]=='.')
+     
+      Then we have to check if the number we are about to fill in the empty is valid or not(means it should not be present in the row or the col the box we arwe about fill cell in is)
 
-    we try to fill the cell with 1, we check if it is valid or not. If it is valid, we continue with the next cell. If it is not valid, we try a different value. If all the values are exhausted, we return false.
+    iii.) If the number is valid we then fill the cell with the number (Here we have updated our board )   {THIS IS OUR "DO"}
+      
+   iv.)  Then we pass the updated board to the solve function to look for other empty cells and do the whol process again   {THIS IS OUR "EXLORE"}
+    If while the solve function is being called recursivelt and it returns true that means we have silved the whole sudoku so we just return from here
+
+    v.) If not it means in the future somewhere we were not able to solve because putting the board[i][j] == d(is not helping us solve)
+    So we board[i][j] = '.' {UNDO}
+    
+
+    //If after doing the whole thins we are not able to return true, means it is not being solved , so we return false;
+
+    At the end of solve function we return true (It shows that the whole grid was already filled)
 
 
-The time complexity of the above algorithm is O(9^(n*n)). In the worst case we have 9 choices for each of the n*n cells.
-The space complexity of the above algorithm is O(n*n). This is the space required for the recursion stack.
+
+
+    NOW COMING TO THE isValid function:
+
+    We just have to check 3 things
+
+  1.)   //Each of the digits 1-9 must occur exactly once in each row.
+        for(int i=0;i<9;i++){
+            if(board[row][i] ==d) return false;
+        }
+  2.)   //Each of the digits 1-9 must occur exactly once in each column. 
+        for(int i=0;i<9;i++){
+            if(board[i][col]==d) return false;
+        }
+    
+  3.) //Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
+    
+        To check this first we need to find the box we are in and in order to that  we need to find the starting row and col a-of that box
+
+        How can we dop that, suppose we are at index gird[i][j] [4][7] (Now ot find the box this cell is in ) we do:
+
+        start_i = i/3 *3 ---> 4/3 *3 ---> 1*3 = 3
+        start_j = j/3*3 ---> 7/3 *3  ---> 2*3 = 6
+
+        so we get that our box starts at (3,6) Now we know where the box is at 
+        Now from 3,6 we just need to look 2 cells to it's right and 2 cells to it's bottom( as we are at the starting so the box can only be in the righ and bottom direction and since the box is given 3*3 so we only need to traverse two more cells in both direction)
+
+         for(int k=0;k<3;k++){
+            for(int l=0;l<3;l++){
+                if(board[start_i+k][start_j+l] == d) return false;
+            }
+        }
+
+
+        If none of them return false, then we return true, indicating that the given number we are trying to insert in grid is valid
+
+
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
