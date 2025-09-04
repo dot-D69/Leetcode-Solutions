@@ -1,7 +1,8 @@
 # Leetcode
-My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using this repo to keep track of my progress ☺️
 
-~~Data Structures~~ 
+My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using this repo to keep track of my progress and add my own explanation to each code ☺️
+
+~~Data Structures~~
 
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
