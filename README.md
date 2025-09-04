@@ -184,7 +184,11 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 | 3516. [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3516.%20Find_Closest_Person.cpp) |
 
 |-----------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-# GFG
+
+## GFG
+
+ | Problem | Difficulty | Solution |
+|-------------------------|:------------------:|---------------------|----------------|
  |[Nearest Smaller Town](https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Nearest_Smaller_Tower.cpp) |
 
 :thumbsup:
