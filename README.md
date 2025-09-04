@@ -183,7 +183,8 @@ My LeetCode Solutions. I am trying to solve 1 problem every day. I will be using
 |3487. [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/description/?envType=daily-question&envId=2025-07-25) |:green_circle: Easy | [[C++ Vector]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3487.Maximum_Unique_Subarray_Sum_After_Deletion(Vector).cpp) [[C++ Set]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3487.Maximum_Unique_Subarray_Sum_After_Deletion(Set).cpp) [[Java]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3487.Maximum_Unique_Subarray_Sum_After_Deletion.java) |
 | 3516. [Find Closest Person](https://leetcode.com/problems/find-closest-person/) | :green_circle: Easy | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/3516.%20Find_Closest_Person.cpp) |
 
-|---------|------------|----------|
-| [Nearest Smaller Town](https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Nearest_Smaller_Tower.cpp) |
+|-----------------------------------------------------|----------------------------------------------|-------------------------------------------------|
+# GFG
+ |[Nearest Smaller Town](https://www.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1) | :yellow_circle: Medium | [[C++]](https://github.com/dot-D69/Leetcode-Solutions/blob/main/Solutions/Nearest_Smaller_Tower.cpp) |
 
 :thumbsup:
