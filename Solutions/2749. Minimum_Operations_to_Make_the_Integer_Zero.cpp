@@ -27,6 +27,52 @@ ii.) K ≤ value (feasibility constraint).
 The number of set bits (1s) in the binary representation of value ≤ K.
 If no such K exists, return -1.
 
+***********************************************************************************************
+
+Where does num1 - K*num2 come from?
+
+We want to make num1 = 0 using exactly K operations.
+In each operation, we can:
+
+Subtract num2
+Split the remaining number into powers of 2
+
+Let's see how we got there:
+
+We want to reduce num1 to 0 in exactly K operations.
+In each operation we subtract:
+    (2^i + num2)  (where ij​≥0 is some power of two we choose)
+
+    Step 1 – Write operations explicitly
+    Operation 1:  num1(1) = num1 - (2^i1 + num2)
+    Operation 2: num1(2) = num1(1) - (2^i2 + num2) (Here we can substitute num1(1) from previous)
+    so num1(2) = [num1 - (2^i1 + num2)] - (2^i2 + num2)
+    Operation 3:num1(3) = num1(2) - (2^i3 + num2) (similarly here we substitue num1(2) from previous so )
+    so num1(3) = [num1 - (2^i1 + num2) - (2^i2 + num2)] - (2^i3 + num2) 
+
+    We also write num1(3) as = num1 - (2^i1+2^i2+2^i3) - 3*num2
+    We can then write num1(4) as  num1 - (2^i1+2^i2+2^i3+2^i4) - 4*num2
+    .
+    .
+    .
+    so let's say after K operations we are able to get  0
+    Operation K: 0 = num1- (2^i1+2^i2+2^i3+2^i4...2^ik) - K*num2
+
+    So we can write this as : num1-k*num2 = (2^i1+2^i2+2^i3+2^i4...2^ik) 
+                              [num1-k*num2  =  sum of K powers of 2] Now this is our eqaution
+                        
+    As the equation tranform our question into :
+                [For  given num1 and mum2 and operation count k , we have to express them in sum of k powers  of 2]
+
+So if we want to get  num1 as 0 , we want to find K (no. operations) , so that num1-K*num2 can be expressed in sum of powers of 2
+
+From here we put K for every value and when it satisfy the following condition:
+                                                            i.) value >= 0 (cannot be negative).
+                                                            ii.) K ≤ value (feasibility constraint).
+
+WE have found our K (no . of operations)  after which num1 will become 0
+
+
 
 *********************************************************************************************
 
