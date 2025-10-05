@@ -32,7 +32,7 @@ i = 0, j = n-1
 
 We need the maxArea of water that can be stored
 The water occupies the area same as that of a rectangle
-Area of Rectangle = Length * Breadth
+Area of Rectadngle = Length * Breadth
 
 So for our length we take the min of heigh[i] and height[j]
 Because if one tower length is 8 and other tower length is 7 , So the max height of the water that can be stored in bettwen these towers is 7, if the water height exceeded over 7 so the water will overflow and not be stored
